@@ -1,0 +1,93 @@
+📌 TDD Todo Application - Project Report
+🔹 Project Overview
+This project is a Todo Application built with React using the Test-Driven Development (TDD) approach.
+The goal was to practice writing tests first, implementing features iteratively, and ensuring that all functionalities are well-tested before deployment.
+The application allows users to:
+•	Add new tasks
+•	Mark tasks as completed
+•	Delete tasks
+•	Persist tasks in local storage
+The project is deployed and accessible at:
+🌐 Live Demo: https://startling-biscuit-ebad34.netlify.app/
+________________________________________
+🔹 GitHub Repository
+📂 Repository Link: https://github.com/Karthisha/tdd-todo
+________________________________________
+🔹 Setup Instructions
+🖥 Run Locally
+1.	Clone the repository
+2.	git clone https://github.com/Karthisha/tdd-todo.git
+3.	cd tdd-todo
+4.	Install dependencies
+5.	npm install
+6.	Run the application locally
+7.	npm start
+8.	The app will be available at:
+👉 http://localhost:3000
+________________________________________
+🚀 Deployment
+The application is deployed on Netlify.
+Deployed Link: https://startling-biscuit-ebad34.netlify.app/
+________________________________________
+🔹 Testing Approach
+We followed the TDD (Test-Driven Development) methodology:
+1.	Write a failing test for the feature.
+2.	Implement the minimum code required to make the test pass.
+3.	Refactor the code while keeping tests green.
+Tools & Libraries
+•	Jest → Unit Testing
+•	React Testing Library → Component Testing
+Test Cases Implemented
+✔ Render the Todo component
+✔ Add a new todo item
+✔ Mark a todo as completed
+✔ Delete a todo
+✔ Persist todos in localStorage
+Run tests with:
+npm test
+________________________________________
+🔹 Components Created
+•	App.js → Root component
+•	TodoList.js → Displays all tasks
+•	TodoItem.js → Individual task with complete/delete actions
+•	AddTodo.js → Input field and button to add a new task
+________________________________________
+🔹 Screenshots & Key Functionalities
+(Replace with actual screenshots in your Word document)
+1.	Home Screen
+![Screenshot Placeholder]
+2.	Adding a Todo
+o	Enter task name in input field
+o	Click Add → Task appears in list
+3.	Completing a Todo
+o	Checkbox marks a task as done
+o	Task text becomes crossed out
+4.	Deleting a Todo
+o	Click Delete → Task is removed
+________________________________________
+🔹 Steps Taken to Achieve the Application
+1.	Initialized GitHub repo with README and setup.
+2.	Setup React app using create-react-app.
+3.	Configured testing tools (Jest & React Testing Library).
+4.	Created test cases before writing components.
+5.	Implemented components step by step (AddTodo, TodoList, TodoItem).
+6.	Connected localStorage for persistence.
+7.	Refactored code to improve readability & maintainability.
+8.	Deployed to Netlify for live access.
+9.	Finalized documentation with README, testing overview, and screenshots.
+________________________________________
+🔹 Submission Requirements Covered
+✅ Code submitted via GitHub Repository
+✅ README.md included with instructions
+✅ Deployment link provided
+✅ Testing approach explained
+✅ Components documented
+✅ Screenshots placeholders included
+________________________________________
+📌 Final Deliverables
+•	GitHub Repository → https://github.com/Karthisha/tdd-todo
+•	Live Application → https://startling-biscuit-ebad34.netlify.app/
+•	Documentation (this file)
+________________________________________
+✨ End of Document ✨
+
